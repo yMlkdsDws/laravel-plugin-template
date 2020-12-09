@@ -1,33 +1,33 @@
 {
-  "name": "entap/example-package",
-  "description": "Example Package",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "ii masamitsu",
-      "email": "ii@entap.co.jp"
+    "name": "entap/example-package",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ii masamitsu",
+            "email": "ii@entap.co.jp"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Entap\\ExamplePackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Entap\\ExamplePackage\\ServiceProvider"
+            ],
+            "aliases": {}
+        }
     }
-  ],
-  "require": {
-    "php": ">=7.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Entap\\ExamplePackage\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Entap\\ExamplePackage\\ServiceProvider"
-      ],
-      "aliases": {}
-    }
-  }
 }
