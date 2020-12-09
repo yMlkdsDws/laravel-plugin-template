@@ -9,6 +9,9 @@
             "email": "ii@entap.co.jp"
         }
     ],
+    "scripts": {
+        "test": "phpunit"
+    },
     "require": {
         "php": ">=7.0.0"
     },
