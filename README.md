@@ -15,6 +15,6 @@
 ### 最新の依存パッケージをインストールする
 
 ```
-composer require laravel/laravel
+composer require laravel/framework
 composer require --dev phpunit/phpunit orchestra/testbench
 ```
