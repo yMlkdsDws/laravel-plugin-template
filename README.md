@@ -17,10 +17,3 @@
 ```
 Entap(\\{1,2})ExamplePackage
 ```
-
-### 最新の依存パッケージをインストールする
-
-```
-composer require laravel/framework
-composer require --dev phpunit/phpunit orchestra/testbench
-```
