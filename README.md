@@ -17,3 +17,9 @@
 ```
 Entap(\\{1,2})ExamplePackage
 ```
+
+### Composer を更新する
+
+```sh
+composer update
+```
